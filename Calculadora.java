@@ -28,8 +28,8 @@ public class Calculadora
     }
 
     public void sumValues(){
-        int num = 0;
-        int sum = 0;
+        int num = 0;//introducimos el primer sumando
+        int sum = 0;//introducimos elsegundo sumando
         while(num >= 0 && num <= 10){
             if(sum >= 0 && sum <=10){
                 System.out.println(num+" + "+sum+"="+(num+sum));
