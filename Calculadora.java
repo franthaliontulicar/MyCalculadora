@@ -74,13 +74,17 @@ public class Calculadora
         return (primo);
     }
 
-    public int multiInt(int numA, int numB){
+    public int multiInt(int a, int b){
+        int contB = 0;
         int multi = 0;
-        while(numA < 0 && numB <0){
-            multi = -1;
+        if(a >0 && b > 0){
+            while(contB <a){
+                multi = multi + a;
+                contB++;
 
+            }
         }
-        multi = numA*numB;
+
         return multi;
 
     }
