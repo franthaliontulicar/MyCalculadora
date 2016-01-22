@@ -8,14 +8,12 @@
 public class Calculadora
 {
     // instance variables - replace the example below with your own
-private int num1;
+    private int num1;
 
     public Calculadora(int primerNum){
         num1 = primerNum;
-   
-    
-    }
 
+    }
     public void multiplesOfFive(){
         int numero = 5;//Al pedir multiplo de  cinco uno de los multiplicadores debera ser 5
         int multi = 0;//Corresponde al valor por el cual multiplicamos
@@ -56,15 +54,18 @@ private int num1;
     public boolean isPrime(int n){
         boolean primo = false;
         int div = 2;
+
         while(primo && (div < n )){
-            if(n % div !=0){
-                primo = true;
+            if(n >1){
+                if(n % div !=0){
+                    primo = true;
+                }
+                else{
+                    primo = false;
+
+                }
+                div++;
             }
-            else{
-                primo = false;
-            
-            }
-            div++;
         }
         return (primo);
     }
