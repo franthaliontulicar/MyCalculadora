@@ -14,6 +14,7 @@ public class Calculadora
         num1 = primerNum;
 
     }
+
     public void multiplesOfFive(){
         int numero = 5;//Al pedir multiplo de  cinco uno de los multiplicadores debera ser 5
         int multi = 0;//Corresponde al valor por el cual multiplicamos
@@ -72,4 +73,16 @@ public class Calculadora
         }
         return (primo);
     }
+
+    public int multiInt(int numA, int numB){
+        int multi = 0;
+        while(numA < 0 && numB <0){
+            multi = -1;
+
+        }
+        multi = numA*numB;
+        return multi;
+
+    }
 }
+

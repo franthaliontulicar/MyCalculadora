@@ -9,4 +9,6 @@ comment3.params=a\ b
 comment3.target=void\ sumValuesInterval(int,\ int)
 comment4.params=n
 comment4.target=boolean\ isPrime(int)
-numComments=5
+comment5.params=numA\ numB
+comment5.target=int\ multiInt(int,\ int)
+numComments=6
