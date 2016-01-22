@@ -66,6 +66,9 @@ public class Calculadora
                 }
                 div++;
             }
+            else{
+                primo = false;
+            }
         }
         return (primo);
     }
