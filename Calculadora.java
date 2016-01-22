@@ -9,10 +9,10 @@ public class Calculadora
 {
     // instance variables - replace the example below with your own
 private int num1;
-private int num2;
-    public Calculadora(int primerNum, int segundoNum){
+
+    public Calculadora(int primerNum){
         num1 = primerNum;
-        num2 = segundoNum;
+   
     
     }
 
@@ -56,7 +56,7 @@ private int num2;
     public boolean isPrime(int n){
         boolean primo = false;
         int div = 2;
-        while(primo && (div < n - 1)){
+        while(primo && (div < n )){
             if(n % div !=0){
                 primo = true;
             }
