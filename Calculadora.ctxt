@@ -1,6 +1,6 @@
 #BlueJ class context
-comment0.params=
-comment0.target=Calculadora()
+comment0.params=primerNum\ segundoNum
+comment0.target=Calculadora(int,\ int)
 comment1.params=
 comment1.target=void\ multiplesOfFive()
 comment2.params=

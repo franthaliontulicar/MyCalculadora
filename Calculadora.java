@@ -8,8 +8,12 @@
 public class Calculadora
 {
     // instance variables - replace the example below with your own
-
-    public Calculadora(){
+private int num1;
+private int num2;
+    public Calculadora(int primerNum, int segundoNum){
+        num1 = primerNum;
+        num2 = segundoNum;
+    
     }
 
     public void multiplesOfFive(){
@@ -60,6 +64,7 @@ public class Calculadora
                 primo = false;
             
             }
+            div++;
         }
         return (primo);
     }
