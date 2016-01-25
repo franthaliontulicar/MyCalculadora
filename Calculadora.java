@@ -84,6 +84,9 @@ public class Calculadora
 
             }
         }
+        else{
+        multi = -1;
+        }
 
         return multi;
 
